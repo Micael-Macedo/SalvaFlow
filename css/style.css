@@ -1,0 +1,81 @@
+:root{
+    --nav-height: 200px;
+}
+body{
+    padding-top: 0%;
+}
+*{
+    font-family: 'Roboto-Regular' Arial, sans-serif ;
+    font-size: 20px;
+    text-align: justify;
+}
+@font-face {
+    font-family: "Roboto-Regular";
+    src: url(../font/Roboto-Regular.ttf);
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: var(--nav-height);
+    align-items: center;
+    background-color: white;
+    padding: 0% 2%;
+}
+.nav-content{
+    display: flex;
+}
+.navAcompanhamento {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+nav img{
+    width: 62%;
+}
+nav a {
+    margin-right: 20px;
+    font-size: 20px;
+    text-decoration: none !important;
+    color: black !important;
+    transition: 0.5s;
+}
+nav a:hover {
+    color: orangered !important;    
+}
+main{
+    background-color: white;
+    margin: auto 10%;
+    padding: 5%;
+    padding-top: 0%;
+    margin-top: calc(var(--nav-height));
+}
+section{
+    
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.landing-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.landing-page img{
+    height: 500px ;
+    margin-bottom: 20px;
+}
+.LandingPageImage{
+    width: 90%;
+}
+.landing-page h1{
+    color: white;
+    background-color: black;
+    padding: 10px 50px;
+    text-align: center;
+}
+
+.SalvaFlowLogo{
+    width: 10% !important;
+    height: 10% !important;
+}
