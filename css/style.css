@@ -89,10 +89,11 @@ h3{
     text-align: center;
 }
 .image{
+
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 40px 0;
+    margin: auto;
 }
 .landing-page {
     display: flex;
@@ -105,7 +106,7 @@ h3{
 }
 
 .LandingPageImage {
-    width: 120%;
+    width: 100%;
     margin-bottom: 30px;
 }
 
@@ -206,7 +207,15 @@ h3{
     text-align: center;
     color: gray;
 }
-
+.michelle img{
+    width: 90%
+}
+.reportagem img{
+    width: 90% !important;
+}
+.rede img{
+    width: 90% !important;
+}
 .grafiteHipHopHouseImg img {
     width: 90%;
 }
