@@ -81,20 +81,23 @@ h1 {
     margin-bottom: 20px;
 }
 
-h2{
+h2 {
     font-size: 30px !important;
     margin-bottom: 20px !important;
 }
-h3{
+
+h3 {
     text-align: center;
 }
-.image{
+
+.image {
 
     display: flex;
     justify-content: center;
     align-items: center;
     margin: auto;
 }
+
 .landing-page {
     display: flex;
     flex-direction: column;
@@ -110,28 +113,32 @@ h3{
     margin-bottom: 30px;
 }
 
-.landing-page-title{
+.landing-page-title {
     z-index: 0;
     top: 610px;
     position: absolute;
     background-color: black;
     color: white !important;
 }
+
 .landing-page h1 {
     color: black;
     padding: 10px 50px;
     text-align: center;
 }
-.landing-page-subtitle{
+
+.landing-page-subtitle {
     font-size: 40px;
     text-align: center;
 }
+
 .SalvaFlowLogo {
     width: 10% !important;
     height: 10% !important;
     margin-bottom: 40px;
 }
-.citacao{
+
+.citacao {
     background-image: linear-gradient(140deg, red 0%, red 50.52%, red 100%);
     padding: 10px;
     border-radius: 5px;
@@ -144,35 +151,41 @@ h3{
     background-color: white;
 }
 
-.citacao p{
+.citacao p {
     margin: 0;
     padding: 20px 40px;
     border-radius: 5px;
     background-color: white;
 }
-.list-imgs{
+
+.list-imgs {
     margin: 50px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.list-imgs div{
+
+.list-imgs div {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.list-imgs img{
+
+.list-imgs img {
     width: 100%;
     height: 500px;
 }
-.batalhaTorre a{
+
+.batalhaTorre a {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.batalhaTorre img{
+
+.batalhaTorre img {
     width: 40%;
 }
+
 .AnandaImg {
     display: flex;
     justify-content: center;
@@ -207,15 +220,19 @@ h3{
     text-align: center;
     color: gray;
 }
-.michelle img{
+
+.michelle img {
     width: 90%
 }
-.reportagem img{
+
+.reportagem img {
     width: 90% !important;
 }
-.rede img{
+
+.rede img {
     width: 90% !important;
 }
+
 .grafiteHipHopHouseImg img {
     width: 90%;
 }
@@ -225,34 +242,57 @@ h3{
     justify-content: center;
 }
 
-.NomesEmAscencao{
+.NomesEmAscencao {
     font-size: 30px;
 }
-.Artistas{
+
+.Artistas {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
     margin: 30px 30px;
 }
-.Artistas img{
+
+.Artistas img {
     border: 5px solid black;
     width: 250px;
     border-radius: 50%;
 }
-.Artista{
+
+.Artista {
     width: 250px;
     height: 350px;
 }
-button{
+
+button {
     background-color: unset;
     border: none;
     transition: 0.5s;
 }
-button:hover{
+
+button:hover {
     color: red;
     transform: scale(1.2);
 }
-button:hover img{
+
+button:hover img {
     border: 5px solid red;
 }
+.modal-Artist-Card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.modal-Artist-Card img{
+    border: 5px red solid;
+}
+
+.seta-proximo{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='deeppink' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+.seta-retornar{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='deeppink' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
